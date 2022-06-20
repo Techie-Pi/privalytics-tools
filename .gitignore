@@ -15,3 +15,5 @@ Cargo.lock
 /target
 
 .idea/
+test_data/*
+output_test_data/*
