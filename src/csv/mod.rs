@@ -1,5 +1,4 @@
 use std::error::Error;
-use std::io;
 use crate::{Entry, Transformation};
 use crate::structures::entry::DataValues;
 

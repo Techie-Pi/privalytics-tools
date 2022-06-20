@@ -45,7 +45,7 @@ fn main() -> Result<(), Box<dyn Error>> {
 
     if let Err(_e) = fs::write(&output_file, value.clone()) {
         fs::create_dir_all(args.output_folder)?;
-        fs::write(&output_file, value.clone())?;
+        fs::write(&output_file, value)?;
     }
 
     Ok(())
